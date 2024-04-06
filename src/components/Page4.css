@@ -1,0 +1,59 @@
+/* #root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  
+} */
+
+/*  */
+/* .navbar{
+  /* width:100vh; */
+  /* position: absolute;
+  top: 0;
+  width:100vw;
+  background:grey;
+  color: brown; */
+  body{
+    height: 100vh;
+  }
+  *{
+    margin: 0;
+    padding: 0;
+   }
+   .a{
+    height: 100%;
+     width: 100vw;
+     display: flex;
+     flex-direction: column;
+     text-align: center;
+
+   }
+   /* .a>*{
+     padding: 10px;
+     margin: 10px;
+     flex: 1 100%;
+   } */
+   .b{
+     height:5px;
+     margin-bottom: 10px;
+     padding:20px;
+   }
+   .c{
+     margin-top: 0px;
+     display: flex;
+     flex-direction: column;
+     
+     width: 50%;
+     margin: auto;
+     position: relative;
+     border-radius: 8px;
+     border-style: groove;
+   }
+   .d{
+     color: black;
+     background-color: antiquewhite;
+     position: absolute;
+     right: 0;
+     border-radius: 10px;
+     margin-top: 15px;
+   }
