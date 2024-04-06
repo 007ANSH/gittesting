@@ -1,6 +1,7 @@
 import React, { useState } from 'react'
 import { NavLink } from 'react-router-dom';
 import Login from "./Login";
+import './Page3.css';
 
 export default function Page3() {
   const [name, setName] = useState('');

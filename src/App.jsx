@@ -1,4 +1,4 @@
-import "./App.css";
+// import "./App.css";
 import Login from "./components/Login";
 import Page2 from "./components/Page2";
 import Page3 from "./components/Page3";
@@ -18,8 +18,8 @@ function App() {
   let { nameOfOrg } = useParams();
   return (
     <>
-    
-      <BrowserRouter>
+      
+      {/* <BrowserRouter>
       
       <Routes>
         <Route path="/" element={<Register flag="true"/>}></Route>
@@ -35,7 +35,8 @@ function App() {
 
 
       </Routes>
-     </BrowserRouter>
+     </BrowserRouter> */}
+     <Feed/>
      {/* <Page4/> */}
     {/* <Filter1 /> */}
     </>

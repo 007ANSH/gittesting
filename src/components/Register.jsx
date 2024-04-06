@@ -1,6 +1,7 @@
 import React from 'react'
 import { NavLink } from 'react-router-dom'
 import { useAuth0 } from "@auth0/auth0-react";
+import './Register.css';
 export default function Register() {
   const {loginWithRedirect} = useAuth0();
   return (

@@ -3,7 +3,7 @@ import { NavLink } from 'react-router-dom'
 import { useAuth0 } from "@auth0/auth0-react";
 // import {ReactComponent as Logo} from './public/vite.svg'
 import Login from "./Login";
-
+import './Page2.css';
 
 export default function Page2() {
   const {user,isLoading} = useAuth0();

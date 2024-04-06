@@ -2,7 +2,7 @@ import React from "react";
 import { NavLink } from "react-router-dom";
 import Register from "./Register";
 import { useAuth0 } from "@auth0/auth0-react";
-
+import './Login.css';
 
 export default function Navbar() {
   const {logout} = useAuth0();
